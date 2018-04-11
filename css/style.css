@@ -1,0 +1,157 @@
+/* 
+    Criado por Rodrigo [Gousro] 
+    Github https://github.com/Gousro
+*/
+
+body {
+    font: 100% normal Arial, Helvetica, sans-serif;
+    background-color: #161712;
+    color:  #ffffff;
+}
+
+form, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+div.form-cadastro {
+    margin: 0 auto;
+    width: 500px;
+    background: #222222;
+    position: relative;
+    top: 50px;
+    border: 1px solid #262626;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+div.form-cadastro h1 {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px solid #161712;
+}
+
+div.form-cadastro label {
+    width: 100%;
+    display: block;
+    background: #1C1C1C;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+    padding: 10px 0 10px 0;
+}
+
+div.form-cadastro label span {
+    display: block;
+    color: #bbbbbb;
+    font-size: 12px;
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding: 5px 20px 0 0;
+}
+
+div.form-cadastro .input_txt {
+    padding: 10px 10px;
+    width: 200px;
+    background-color: #262626;
+    border: 1px double #171717;
+}
+
+div.form-cadastro .submit {
+    margin: 10px 0;
+    padding: 4px 7px;
+    float: right;
+    background: #00a2ff;
+    border: 0px;
+    position: relative;
+    border: 1px double #0000FF;
+    font-weight: bold;
+}
+
+div.form-cadastro .submit:hover {
+    background: #008cff;
+}
+
+div.infor-usuarios {
+    margin: 0 auto 10px auto;
+    width: 420px;
+    background: #222222;
+    position: relative;
+    border: 1px solid #333;
+}
+
+div.centro {
+    display: table;
+    width: 420px;
+    margin: 0 auto;
+}
+
+div.infor-usuarios h1 {
+    color: #ddd;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px solid #333;
+}
+
+div.infor-usuarios span {
+    color: #ddd;
+    font-size: 12px;
+    float: left;
+    width: 60px;
+    text-align: right;
+    padding: 5px;
+    margin: 0px 0px 5px 5px;
+}
+
+div.infor-usuarios span.c-gravado {
+    color: #ddd;
+    font-size: 12px;
+    float: left;
+    width: 320px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h1.titulo {
+    text-align: center;
+    margin: 50px 0;
+}
+
+h2.c-sucesso {
+    text-align: center;
+    margin: 500px auto;
+    color: #00FF00;
+    text-shadow: 1px 1px 10px green;
+}
+
+h2.c-erro {
+    text-align: center;
+    margin: auto auto;
+    color: orangered;
+    text-shadow: 1px 1px 10px firebrick;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width:99%;
+}
+
+a {
+    color: gold;
+    padding: 9px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: #333;
+    border-radius: 5px;
+}
